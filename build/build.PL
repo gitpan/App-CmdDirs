@@ -15,6 +15,8 @@ open my $out, ">", "$baseDir/cmddirs.tmp" or die $!;
 
 print STDERR "Generating cmddirs from script/cmddirs.PL\n";
 
+# FatPacker wants it's lib
+mkdir "fatlib";
 while (<$in>) {
     # Remove & replace things from bin/cmddirs.PL
     next if /Auto-removed/;

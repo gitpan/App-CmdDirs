@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               App-CmdDirs
-version:            1.00
+version:            1.01
 abstract:           Perform a command in subdirectories
 author:
     - Drew Stephens <drew@dinomite.net>
@@ -9,9 +9,11 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
-    App::FatPacker:  0.9.6
-requires:
-    ExtUtils::MakeMaker:  6.31
+    App::FatPacker:      0.009006
+    Perl::Critic:        1.113
+    Test::Class:         0.36
+    Test::Perl::Critic:  1.02
+requires:  {}
 no_index:
     directory:
         - t
