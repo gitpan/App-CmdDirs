@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               App-CmdDirs
-version:            1.01
+version:            1.02
 abstract:           Perform a command in subdirectories
 author:
     - Drew Stephens <drew@dinomite.net>
